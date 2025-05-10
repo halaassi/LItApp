@@ -19,6 +19,7 @@ export class HeroSection extends LitElement {
       flex-wrap: wrap;
     }
     
+    
     .text-content {
       flex: 1;
       min-width: 300px;

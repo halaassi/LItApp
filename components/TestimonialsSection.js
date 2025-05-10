@@ -67,15 +67,17 @@ export class NewsletterSection extends LitElement {
     }
   `;
 
-  render() {
+  render() 
     return html`
       <div class="container">
         <div class="subtitle">Newsletter</div>
         <h2>Our Popular Courses</h2>
         <p class="description">
+
           Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics
         </p>
         
+
         <form @submit="${this.handleSubmit}">
           <input type="email" placeholder="Your Email" required>
           <button type="submit">Subscribe</button>

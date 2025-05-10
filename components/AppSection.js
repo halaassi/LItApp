@@ -11,6 +11,7 @@ import './FooterSection.js';
 import './PopularCourse.js';
 import './TeamCoursesSection.js';
 
+
 class AppSection extends LitElement {
   static styles = css`
     :host {

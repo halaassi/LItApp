@@ -60,6 +60,7 @@ export class FooterSection extends LitElement {
             <li>Blog</li>
           </ul>
         </div>
+        
         <div class="col">
           <h4>Legal</h4>
           <ul>

@@ -189,6 +189,7 @@ export class PopularCoursesSection extends LitElement {
         
       </div>
     `;
+    
   }
 
   renderCourseCard(title, category, oldPrice, newPrice, rating, image) {

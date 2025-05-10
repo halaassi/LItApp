@@ -36,6 +36,7 @@ export class StatsSection extends LitElement {
       font-size: 1.1rem;
       color: #dcdde1;
     }
+      
     
     .expert-section {
       margin-top: 80px;

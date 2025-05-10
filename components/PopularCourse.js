@@ -20,6 +20,8 @@ export class PopularCourse extends LitElement {
       gap: 60px;
     }
     
+    
+
     .image-content {
       flex: 1;
     }

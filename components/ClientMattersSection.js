@@ -1,5 +1,4 @@
 import { LitElement, html, css } from 'https://cdn.skypack.dev/lit';
-
 export class ClientMattersSection extends LitElement {
   static styles = css`
     :host {

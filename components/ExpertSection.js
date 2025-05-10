@@ -17,6 +17,7 @@ export class ExpertSection extends LitElement {
       gap: 60px;
     }
     
+    
     .image-box {
       flex: 1;
       min-width: 300px;
