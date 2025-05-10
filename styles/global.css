@@ -1,0 +1,20 @@
+:root {
+  --bg-dark: #1b2440;
+  --text-white: #16244E;
+  --accent-purple: #6e57e0;
+  --accent-pink: #ff4eb5;
+  --primary: #4c47f7;
+  --gray: #8c96ab;
+  --font-main: 'Poppins', sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-main);
+  background-color: var(--bg-dark);
+  color: var(--text-white);
+}
+
+button {
+  cursor: pointer;
+}
