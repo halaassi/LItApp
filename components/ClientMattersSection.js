@@ -8,44 +8,44 @@ export class ClientMattersSection extends LitElement {
       color: white;
       padding: 80px 20px;
     }
-    
+
     .container {
       max-width: 1200px;
       margin: 0 auto;
     }
-    
+
     .header-content {
       max-width: 700px;
       margin-bottom: 60px;
     }
-    
+
     .subtitle {
       color: #8e44ad;
       font-weight: bold;
       margin-bottom: 15px;
       text-align: left;
     }
-    
+
     h2 {
       font-size: 2.5rem;
       font-weight: bold;
       margin-bottom: 20px;
       text-align: left;
     }
-    
+
     .description {
       color: #dcdde1;
       text-align: left;
       line-height: 1.6;
     }
-    
+
     .cards {
       display: flex;
       flex-wrap: wrap;
       gap: 30px;
-      justify-content: flex-start; /* تغيير من center إلى flex-start */
+      justify-content: flex-start;
     }
-    
+
     .card {
       background: white;
       color: #333;
@@ -54,51 +54,55 @@ export class ClientMattersSection extends LitElement {
       flex: 1;
       min-width: 220px;
       max-width: 280px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
       text-align: center;
       transition: all 0.3s;
     }
-    
+
     .card:hover {
       transform: translateY(-5px);
-      box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     }
-    
+
     .card img {
       width: 60px;
       height: 60px;
       margin-bottom: 20px;
     }
-    
+
     .card-title {
       font-weight: bold;
       margin-bottom: 10px;
     }
-    
+
     .card-line {
       width: 40px;
       height: 3px;
       background-color: #e74c3c;
       margin: 10px auto;
     }
-    
+
     .card-text {
       font-size: 0.9rem;
       color: #7f8c8d;
     }
-    
-    @media (max-width: 768px) {
+
+    @media (max-width: 700px) {
       .cards {
         justify-content: center;
       }
-      
+
       .header-content {
         text-align: center;
       }
-      
+
       .subtitle, h2, .description {
         text-align: center;
       }
+    }
+
+    
+
     }
   `;
 
@@ -112,7 +116,7 @@ export class ClientMattersSection extends LitElement {
             Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics
           </p>
         </div>
-        
+
         <div class="cards">
           ${this.renderCard('assets/u1.png', 'Training Courses', 'The gradual accumulation of information about')}
           ${this.renderCard('assets/u2.png', '2,769 online courses', 'The gradual accumulation of information about')}
