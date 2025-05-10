@@ -88,9 +88,7 @@ export class FooterSection extends LitElement {
           </ul>
         </div>
       </div>
-      <div class="bottom">
-        Made with ♥ by Your Company Name | All rights reserved
-      </div>
+   
     `;
   }
 }
