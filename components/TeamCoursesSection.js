@@ -9,7 +9,7 @@ export class TeamCoursesSection extends LitElement {
       margin: 0;
       padding: 0;
       width: 100%;
-      font-family: 'Arial', sans-seri
+      font-family: 'Arial', sans-serif;
     }
 
     .container {

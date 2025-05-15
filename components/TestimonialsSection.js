@@ -67,7 +67,7 @@ export class NewsletterSection extends LitElement {
     }
   `;
 
-  render() 
+  render() {
     return html`
       <div class="container">
         <div class="subtitle">Newsletter</div>
